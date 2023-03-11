@@ -16,6 +16,12 @@ body {
     align-items: center;
 }
 
+.sidebar-title {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+
 .sidebar ul {
     list-style-type: none;
 }
