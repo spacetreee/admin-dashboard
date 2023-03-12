@@ -5,7 +5,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 200px 4fr;
 }
 
 .sidebar {
@@ -18,8 +18,11 @@ body {
 
 .sidebar-title {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: auto 1fr;
     gap: 5px;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
 }
 
 .sidebar-title .material-icons.md-48 { font-size: 48px; }
