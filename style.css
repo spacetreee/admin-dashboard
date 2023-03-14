@@ -7,7 +7,8 @@ body {
 .main-content,
 .project,
 .announcements,
-.trending {
+.trending,
+.top-header {
     border: 1px solid black;
 }
 .container {
@@ -46,8 +47,22 @@ body {
     gap: 10px;
     margin: 10px 10px 10px 15px;
 }
+
 header {
     border: 1px solid black;
+}
+
+.top-header,
+.notification {
+    display: grid;
+}
+
+.top-header {
+    grid-template-columns: 2fr 1fr;
+}
+
+.notification {
+    grid-template-columns: auto auto 1fr;
 }
 
 .main-content {
