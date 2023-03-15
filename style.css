@@ -53,16 +53,25 @@ header {
 }
 
 .top-header,
-.notification {
+.notification,
+.search {
     display: grid;
+    align-items: center;
 }
 
 .top-header {
     grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+.search {
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
 }
 
 .notification {
     grid-template-columns: auto auto 1fr;
+    column-gap: 10px;
 }
 
 .notification img {
