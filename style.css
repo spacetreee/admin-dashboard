@@ -91,7 +91,7 @@ header {
 
 .bottom-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
 }
 
@@ -108,7 +108,22 @@ header {
 }
 .menu>ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+    justify-items: center;
+    column-gap: 15px;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.menu li>button {
+    padding: 5px 10px;
+    background-color: #075985;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    width: 70px;
 }
 
 .profile img {
