@@ -156,7 +156,9 @@ header {
 
 .projects {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20px repeat(3, 1fr);
+    grid-template-rows: 20px repeat(3, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 #project-title {
@@ -165,4 +167,16 @@ header {
 .projects 
 .trending {
     grid-column: 2;
+}
+
+.projects .cards {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 20px 10px 10px 10px;
+    background-color: white;
+    border-left: 5px solid #0c4a6e;
+}
+
+.cards .title {
+    font-weight: 600;
 }
