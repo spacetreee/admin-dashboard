@@ -149,7 +149,8 @@ header {
 
 .projects,
 .announcements, 
-.trending {
+.trending,
+.cards {
     margin: 10px;
     display: grid;
 }
@@ -179,4 +180,11 @@ header {
 
 .cards .title {
     font-weight: 600;
+}
+
+.action {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    column-gap: 10px;
 }
