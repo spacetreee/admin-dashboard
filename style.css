@@ -3,14 +3,6 @@ body {
     padding: 0;
 }
 
-.sidebar,
-.main-content,
-.projects,
-.announcements,
-.trending,
-.top-header {
-    border: 1px solid black;
-}
 .container {
     display: grid;
     grid-template-columns: 200px 4fr;
@@ -31,7 +23,6 @@ body {
     gap: 5px;
     align-items: center;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .sidebar-title .material-icons.md-48 { font-size: 48px; }
@@ -46,10 +37,6 @@ body {
     grid-template-columns: auto 1fr;
     gap: 10px;
     margin: 10px 10px 10px 15px;
-}
-
-header {
-    border: 1px solid black;
 }
 
 .top-header,
